@@ -24,7 +24,7 @@ Create file `Secret.h` in `src` folder with the following content:
 ```
 and fill it with the information about your Vara account and WiFi Network. `PRIV_KEY` and `PUB_KEY` are the private and public keys of your Vara account, `SS58_ADR` is its address.
 
-**This demo works only for ED25519 accounts! Also account must have more then 10 tokens.**
+**This demo works only for ED25519 accounts! Also account must have more then 10 tokens in Vara test network.**
 
 To get the private and public keys from your account seed phrase you can use [get-keys.py](get-keys.py) script. Just run it and follow instructions:
 ```bash
